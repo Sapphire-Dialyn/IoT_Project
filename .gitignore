@@ -1,0 +1,29 @@
+# --- Dependencies (Thư viện nặng - Không up lên) ---
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# --- Build Output (File biên dịch - Không up lên) ---
+dist/
+build/
+.next/
+
+# --- Environment Variables (BẢO MẬT - Tuyệt đối không up) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- IDE / Editor Settings (Cấu hình máy cá nhân) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Testing ---
+coverage/
