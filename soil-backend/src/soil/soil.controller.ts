@@ -9,4 +9,8 @@ export class SoilController {
   async getHistory() {
     return this.soilService.getHistory();
   }
+  @Get('all') // Đây chính là cái tạo ra đường dẫn /soil/all
+  async getAllData() {
+    return this.soilService.getAll();
+  }
 }

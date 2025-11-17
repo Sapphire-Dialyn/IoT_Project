@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nigg...Niggg",
+  title: "SGD - Giám sát vườn thông minh",
   description: "Hệ thống giám sát và điều khiển vườn thông minh",
 };
 

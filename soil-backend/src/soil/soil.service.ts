@@ -75,4 +75,10 @@ export class SoilService implements OnModuleInit {
       take: 50, // Lấy 50 bản ghi mới nhất
     });
   }
+  async getAll() {
+    return this.soilRepo.find({
+      order: { createdAt: 'DESC' }, // Lấy mới nhất trước
+      take: 1000, // Lấy tối đa 1000 dòng (để tránh treo máy nếu data quá nhiều)
+    });
+  }
 }
